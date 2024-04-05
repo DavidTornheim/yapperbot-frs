@@ -1,5 +1,7 @@
 package main
 
+// 4/5/24 -- DAT -- add comment about what the config file will be named.
+
 //
 // Yapperbot-FRS, the Feedback Request Service bot for Wikipedia
 // Copyright (C) 2020 Naypta
@@ -39,6 +41,7 @@ import (
 
 func init() {
 	ybtools.SetupBot(ybtools.BotSettings{TaskName: "FRS", BotUser: "Yapperbot"})
+	// This will load from config-FRS.yml
 	ybtools.ParseTaskConfig(&yapperconfig.Config)
 }
 
