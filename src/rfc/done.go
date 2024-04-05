@@ -1,5 +1,7 @@
 package rfc
 
+// 4/5/24 -- DAT -- add print statements to understand code.
+
 //
 // Yapperbot-FRS, the Feedback Request Service bot for Wikipedia
 // Copyright (C) 2020 Naypta
@@ -40,6 +42,9 @@ var loadedRfcs map[string]bool = map[string]bool{}
 // MarkRfcsDone takes a series of RfC objects,
 // and adds the RfCs to the list of completed RfCs.
 func MarkRfcsDone(rfcsDone []RfC) {
+// Debug only
+	fmt.Println("routine:  MarkRfcsDone   from:  frs/src/rfc/done.go")
+//
 	for _, rfc := range rfcsDone {
 		doneRfcs[rfc.ID] = true
 	}
