@@ -31,3 +31,12 @@ type configObject struct {
 
 // Config is the global configuration object. This should only really ever be read from.
 var Config configObject
+
+// Example config file:
+// https://github.com/DavidTornheim/yapperbot-frs/config-frs.testwiki.yml
+//   frspageid: 110754 # DO NOT CHANGE THIS PAGEID unless the WP:FRS page is completely different
+//   gaguidelinesheaderpageid: 110769 # DO NOT CHANGE THIS PAGEID unless the GA topics are now on a completely different page
+//   sentcountpageid: 110772 # DO NOT CHANGE THIS PAGEID
+//   rfcsdonepageid: 111355 # DO NOT CHANGE THIS PAGEID
+// https://github.com/mashedkeyboard/yapperbot-frs/config-frs.testwiki.yml
+
