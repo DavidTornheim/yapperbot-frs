@@ -1,6 +1,7 @@
-module yapperbot-frs
+module github.com/DavidTornheim/yapperbot-frs
 
 # 2024-05-05	DAT	Change ybtools to use DavidTornheim path instead
+			Change path in header to see if that helps
 
 go 1.14
 
