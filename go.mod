@@ -1,6 +1,6 @@
 module yapperbot-frs
 
-# 2024-05-05	DAT	Change to use DavidTornheim path instead
+# 2024-05-05	DAT	Change ybtools to use DavidTornheim path instead
 
 go 1.14
 
