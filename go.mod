@@ -1,10 +1,10 @@
 module github.com/DavidTornheim/yapperbot-frs
 
-# 2024-05-05	DAT	Change ybtools to use DavidTornheim path instead
-#			Change path in header to see if that helps
-#			6:58 PM -- eliminate V2.2.2 for ybtools
+// 2024-05-05	DAT	Change ybtools to use DavidTornheim path instead
+//			Change path in header to see if that helps
+//			6:58 PM -- eliminate V2.2.2 for ybtools
 
-# previous:	github.com/DavidTornheim/ybtools/v2 v2.2.2
+// previous:	github.com/DavidTornheim/ybtools/v2 v2.2.2
 
 go 1.14
 
