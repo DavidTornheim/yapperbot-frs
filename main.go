@@ -1,5 +1,6 @@
 package main
 
+// 5/6/24 -- DAT -- avoid circular import (in local file by not importing yapperbot-frs
 // 4/5/24 -- DAT -- add comment about what the config file will be named.
 
 //
@@ -27,7 +28,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"yapperbot-frs/src/frslist"
+//	"yapperbot-frs/src/frslist"
 	"yapperbot-frs/src/ga"
 	"yapperbot-frs/src/messages"
 	"yapperbot-frs/src/rfc"
