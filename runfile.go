@@ -1,5 +1,7 @@
 package main
 
+// 2024-05-10	DAT	Use DavidTornheim/ytbools rather than Mashedkeyboard's version
+
 //
 // Yapperbot-FRS, the Feedback Request Service bot for Wikipedia
 // Copyright (C) 2020 Naypta
@@ -22,7 +24,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/mashedkeyboard/ybtools/v2"
+//	"github.com/mashedkeyboard/ybtools/v2"
+	"github.com/DavidTornheim/ybtools"
 	"github.com/metal3d/go-slugify"
 )
 
