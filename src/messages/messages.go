@@ -1,6 +1,8 @@
 // Package messages contains our message queueing and sending functionality.
 package messages
 
+// 2024-05-10	DAT	Use DavidTornheim/ytbools rather than mashedkeyboard's version
+
 //
 // Yapperbot-FRS, the Feedback Request Service bot for Wikipedia
 // Copyright (C) 2020 Naypta
@@ -31,7 +33,8 @@ import (
 	"cgt.name/pkg/go-mwclient"
 	"cgt.name/pkg/go-mwclient/params"
 	"github.com/gertd/go-pluralize"
-	"github.com/mashedkeyboard/ybtools/v2"
+//	"github.com/mashedkeyboard/ybtools/v2"
+	"github.com/DavidTornheim/ybtools"
 )
 
 // A Message object represents a single message which might be sent to a user.
