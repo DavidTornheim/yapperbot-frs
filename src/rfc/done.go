@@ -1,5 +1,6 @@
 package rfc
 
+// 5/10/24 -- DAT -- Use DavidTornheim/ytbools rather than mashedkeyboard's version
 // 4/5/24 -- DAT -- add print statements to understand code.
 
 //
@@ -27,7 +28,8 @@ import (
 
 	"cgt.name/pkg/go-mwclient"
 	"cgt.name/pkg/go-mwclient/params"
-	"github.com/mashedkeyboard/ybtools/v2"
+//	"github.com/mashedkeyboard/ybtools/v2"
+	"github.com/DavidTornheim/ybtools/v2"
 )
 
 // doneRfcs maps found this session and completed/already-completed
