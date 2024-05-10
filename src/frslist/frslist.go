@@ -1,5 +1,7 @@
 package frslist
 
+// 2024-05-10	DAT	Use DavidTornheim/ytbools rather than mashedkeyboard's version
+
 //
 // Yapperbot-FRS, the Feedback Request Service bot for Wikipedia
 // Copyright (C) 2020 Naypta
@@ -31,7 +33,8 @@ import (
 
 	"cgt.name/pkg/go-mwclient"
 	"cgt.name/pkg/go-mwclient/params"
-	"github.com/mashedkeyboard/ybtools/v2"
+//	"github.com/mashedkeyboard/ybtools/v2"
+	"github.com/DavidTornheim/ybtools"
 )
 
 // list is the overall list of FRSUsers mapped to their headers.
