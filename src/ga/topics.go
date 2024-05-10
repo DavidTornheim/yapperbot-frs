@@ -1,5 +1,7 @@
 package ga
 
+// 2024-05-10	DAT	Use DavidTornheim/ytbools rather than mashedkeyboard's version
+
 //
 // Yapperbot-FRS, the Feedback Request Service bot for Wikipedia
 // Copyright (C) 2020 Naypta
@@ -22,7 +24,8 @@ import (
 	"regexp"
 	"yapperbot-frs/src/yapperconfig"
 
-	"github.com/mashedkeyboard/ybtools/v2"
+//	"github.com/mashedkeyboard/ybtools/v2"
+	"github.com/mashedkeyboard/DavidTornheim"
 )
 
 // gaTopics is a map storing the Good Article topics in the form {"subtopic": "topic"}
